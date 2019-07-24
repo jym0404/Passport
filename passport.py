@@ -30,3 +30,19 @@ class Passport:
 #person1.add_nation("china")
 #person1.add_nation("canada")
 #person1.print_passport()
+#Result:
+#---------------------------
+# 
+#name: daniel
+#nationality: korea
+#date of issue: 2019/7/24
+#
+#---------------------------
+# 
+#china
+# 
+#---------------------------
+# 
+#canada
+# 
+#---------------------------
