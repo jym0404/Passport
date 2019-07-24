@@ -35,7 +35,7 @@ class Passport:
 # 
 #name: daniel
 #nationality: korea
-#date of issue: 2019/7/24
+#date of issue: 2019/7/24 <-this is whan you make person1 variable
 #
 #---------------------------
 # 
