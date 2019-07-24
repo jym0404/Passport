@@ -25,11 +25,22 @@ class Passport:
         self.name = name
         self.nara = nat
         self.wg = []
+    def write_passport(self, name, po):
+        f = open(po + "\\" + name, "wt")
+        f.write("---------------------------\n\n")
+        f.write("name:"+self.name+"\n")
+        f.write("nationality:"+self.nara+"\n")
+        f.write("date of issue:"+self.doi+"\n\n")
+        f.write("---------------------------\n\n")
+        for i in range(len(self.wg)):
+            f.write(self.wg[i]+"\n\n")
+            f.write("---------------------------\n")
 #Ex:
 #person1 = Passport("daniel", "korea")
 #person1.add_nation("china")
 #person1.add_nation("canada")
 #person1.print_passport()
+#person1.write_passport("test.txt","C:\\Users\\Public\\Documents")
 #Result:
 #---------------------------
 # 
